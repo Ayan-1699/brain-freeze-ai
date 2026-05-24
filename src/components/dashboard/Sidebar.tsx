@@ -30,7 +30,7 @@ const routes = [
 
 export default function Sidebar({}: Props) {
     return (
-        <aside className="hidden md:flex h-screen w-72 flex-col border-r bg-zinc-950 text-white">
+        <aside className="hidden md:flex h-screen w-72 flex-col border-r bg-zinc-950 text-white dark:border-zinc-800">
             <div className="p-6">
                 <h1 className="text-2xl font-bold">Brain Freeze</h1>
             </div>
